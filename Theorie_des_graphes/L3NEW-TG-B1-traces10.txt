@@ -1,0 +1,131 @@
+Souhaitez vous tester un graphe ? 
+oui
+Choisissez un graphe à traiter :
+10
+Lecture du graphe sur fichier
+15 sommets
+22 arcs
+0 -> 1 = 0
+0 -> 2 = 0
+1 -> 3 = 2
+1 -> 6 = 2
+2 -> 6 = 5
+3 -> 4 = 4
+4 -> 5 = 1
+5 -> 14 = 9
+6 -> 5 = 2
+6 -> 7 = 2
+6 -> 13 = 2
+6 -> 11 = 2
+7 -> 8 = 5
+7 -> 12 = 5
+8 -> 5 = 5
+8 -> 9 = 5
+8 -> 12 = 5
+9 -> 10 = 9
+9 -> 12 = 9
+10 -> 12 = 2
+11 -> 13 = 19
+12 -> 14 = 5
+13 -> 14 = 1
+
+Matrices du graphe :
+Matrice d'adjacence :
+   0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 
+0  F  V  V  F  F  F  F  F  F  F  F  F  F  F  F  
+1  F  F  F  V  F  F  V  F  F  F  F  F  F  F  F  
+2  F  F  F  F  F  F  V  F  F  F  F  F  F  F  F  
+3  F  F  F  F  V  F  F  F  F  F  F  F  F  F  F  
+4  F  F  F  F  F  V  F  F  F  F  F  F  F  F  F  
+5  F  F  F  F  F  F  F  F  F  F  F  F  F  F  V  
+6  F  F  F  F  F  V  F  V  F  F  F  V  F  V  F  
+7  F  F  F  F  F  F  F  F  V  F  F  F  V  F  F  
+8  F  F  F  F  F  V  F  F  F  V  F  F  V  F  F  
+9  F  F  F  F  F  F  F  F  F  F  V  F  V  F  F  
+10 F  F  F  F  F  F  F  F  F  F  F  F  V  F  F  
+11 F  F  F  F  F  F  F  F  F  F  F  F  F  V  F  
+12 F  F  F  F  F  F  F  F  F  F  F  F  F  F  V  
+13 F  F  F  F  F  F  F  F  F  F  F  F  F  F  V  
+14 F  F  F  F  F  F  F  F  F  F  F  F  F  F  F  
+Matrice de poids :
+   0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 
+0  *  0  0  *  *  *  *  *  *  *  *  *  *  *  *  
+1  *  *  *  2  *  *  2  *  *  *  *  *  *  *  *  
+2  *  *  *  *  *  *  5  *  *  *  *  *  *  *  *  
+3  *  *  *  *  4  *  *  *  *  *  *  *  *  *  *  
+4  *  *  *  *  *  1  *  *  *  *  *  *  *  *  *  
+5  *  *  *  *  *  *  *  *  *  *  *  *  *  *  9  
+6  *  *  *  *  *  2  *  2  *  *  *  2  *  2  *  
+7  *  *  *  *  *  *  *  *  5  *  *  *  5  *  *  
+8  *  *  *  *  *  5  *  *  *  5  *  *  5  *  *  
+9  *  *  *  *  *  *  *  *  *  *  9  *  9  *  *  
+10 *  *  *  *  *  *  *  *  *  *  *  *  2  *  *  
+11 *  *  *  *  *  *  *  *  *  *  *  *  *  19 *  
+12 *  *  *  *  *  *  *  *  *  *  *  *  *  *  5  
+13 *  *  *  *  *  *  *  *  *  *  *  *  *  *  1  
+14 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
+Detection de circuit
+Methode d'élimination des points d'entrées
+Points d'entrée :
+0 
+Sommets restants :
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+Points d'entrée :
+1 2 
+Sommets restants :
+3 4 5 6 7 8 9 10 11 12 13 14 
+Points d'entrée :
+3 6 
+Sommets restants :
+4 5 7 8 9 10 11 12 13 14 
+Points d'entrée :
+4 7 11 
+Sommets restants :
+5 8 9 10 12 13 14 
+Points d'entrée :
+8 13 
+Sommets restants :
+5 9 10 12 14 
+Points d'entrée :
+5 9 
+Sommets restants :
+10 12 14 
+Points d'entrée :
+10 
+Sommets restants :
+12 14 
+Points d'entrée :
+12 
+Sommets restants :
+14 
+Points d'entrée :
+14 
+Sommets restants :
+
+Le graphe ne contient pas de circuit
+
+Calcul des rangs des sommets :
+Le rang du sommet 0 est égal à 0
+Le rang du sommet 1 est égal à 1
+Le rang du sommet 2 est égal à 1
+Le rang du sommet 3 est égal à 2
+Le rang du sommet 4 est égal à 3
+Le rang du sommet 5 est égal à 5
+Le rang du sommet 6 est égal à 2
+Le rang du sommet 7 est égal à 3
+Le rang du sommet 8 est égal à 4
+Le rang du sommet 9 est égal à 5
+Le rang du sommet 10 est égal à 6
+Le rang du sommet 11 est égal à 3
+Le rang du sommet 12 est égal à 7
+Le rang du sommet 13 est égal à 4
+Le rang du sommet 14 est égal à 8
+
+Ce graphe est un graphe d'ordonnancement
+
+Calendrier au plus tôt : [0, 0, 0, 2, 6, 17, 5, 7, 12, 17, 26, 7, 28, 26, 33]
+Calendrier au plus tard : [0, 3, 0, 19, 23, 24, 5, 7, 12, 17, 26, 13, 28, 32, 33]
+Marges totales : [0, 3, 0, 17, 17, 7, 0, 0, 0, 0, 0, 6, 0, 6, 0]
+Marges libres : [0, 0, 0, 0, 10, 7, 0, 0, 0, 0, 0, 0, 0, 6, 0]
+
+Souhaitez vous tester un nouveau graphe ? 

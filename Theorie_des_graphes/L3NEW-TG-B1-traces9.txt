@@ -1,0 +1,111 @@
+Souhaitez vous tester un graphe ? 
+oui
+Choisissez un graphe à traiter :
+9
+Lecture du graphe sur fichier
+12 sommets
+20 arcs
+0 -> 6 = 0
+0 -> 10 = 0
+0 -> 4 = 0
+0 -> 7 = 0
+1 -> 9 = 1
+2 -> 9 = 2
+2 -> 11 = 2
+3 -> 9 = 3
+4 -> 1 = 4
+4 -> 5 = 4
+5 -> 1 = 5
+5 -> 8 = 5
+6 -> 3 = 6
+7 -> 8 = 7
+7 -> 2 = 7
+8 -> 1 = 8
+8 -> 9 = 8
+9 -> 11 = 9
+10 -> 3 = 10
+10 -> 1 = 10
+
+Matrices du graphe :
+Matrice d'adjacence :
+   0  1  2  3  4  5  6  7  8  9  10 11 
+0  F  F  F  F  V  F  V  V  F  F  V  F  
+1  F  F  F  F  F  F  F  F  F  V  F  F  
+2  F  F  F  F  F  F  F  F  F  V  F  V  
+3  F  F  F  F  F  F  F  F  F  V  F  F  
+4  F  V  F  F  F  V  F  F  F  F  F  F  
+5  F  V  F  F  F  F  F  F  V  F  F  F  
+6  F  F  F  V  F  F  F  F  F  F  F  F  
+7  F  F  V  F  F  F  F  F  V  F  F  F  
+8  F  V  F  F  F  F  F  F  F  V  F  F  
+9  F  F  F  F  F  F  F  F  F  F  F  V  
+10 F  V  F  V  F  F  F  F  F  F  F  F  
+11 F  F  F  F  F  F  F  F  F  F  F  F  
+Matrice de poids :
+   0  1  2  3  4  5  6  7  8  9  10 11 
+0  *  *  *  *  0  *  0  0  *  *  0  *  
+1  *  *  *  *  *  *  *  *  *  1  *  *  
+2  *  *  *  *  *  *  *  *  *  2  *  2  
+3  *  *  *  *  *  *  *  *  *  3  *  *  
+4  *  4  *  *  *  4  *  *  *  *  *  *  
+5  *  5  *  *  *  *  *  *  5  *  *  *  
+6  *  *  *  6  *  *  *  *  *  *  *  *  
+7  *  *  7  *  *  *  *  *  7  *  *  *  
+8  *  8  *  *  *  *  *  *  *  8  *  *  
+9  *  *  *  *  *  *  *  *  *  *  *  9  
+10 *  10 *  10 *  *  *  *  *  *  *  *  
+11 *  *  *  *  *  *  *  *  *  *  *  *  
+Detection de circuit
+Methode d'élimination des points d'entrées
+Points d'entrée :
+0 
+Sommets restants :
+1 2 3 4 5 6 7 8 9 10 11 
+Points d'entrée :
+4 6 7 10 
+Sommets restants :
+1 2 3 5 8 9 11 
+Points d'entrée :
+2 3 5 
+Sommets restants :
+1 8 9 11 
+Points d'entrée :
+8 
+Sommets restants :
+1 9 11 
+Points d'entrée :
+1 
+Sommets restants :
+9 11 
+Points d'entrée :
+9 
+Sommets restants :
+11 
+Points d'entrée :
+11 
+Sommets restants :
+
+Le graphe ne contient pas de circuit
+
+Calcul des rangs des sommets :
+Le rang du sommet 0 est égal à 0
+Le rang du sommet 1 est égal à 4
+Le rang du sommet 2 est égal à 2
+Le rang du sommet 3 est égal à 2
+Le rang du sommet 4 est égal à 1
+Le rang du sommet 5 est égal à 2
+Le rang du sommet 6 est égal à 1
+Le rang du sommet 7 est égal à 1
+Le rang du sommet 8 est égal à 3
+Le rang du sommet 9 est égal à 5
+Le rang du sommet 10 est égal à 1
+Le rang du sommet 11 est égal à 6
+
+Ce graphe est un graphe d'ordonnancement
+
+Calendrier au plus tôt : [0, 17, 7, 10, 0, 4, 0, 0, 9, 18, 0, 27]
+Calendrier au plus tard : [0, 17, 16, 15, 0, 4, 9, 2, 9, 18, 5, 27]
+Marges totales : [0, 0, 9, 5, 0, 0, 9, 2, 0, 0, 5, 0]
+Marges libres : [0, 0, 9, 5, 0, 0, 4, 0, 0, 0, 0, 0]
+
+Souhaitez vous tester un nouveau graphe ? 

@@ -1,0 +1,78 @@
+Souhaitez vous tester un graphe ? 
+oui
+Choisissez un graphe à traiter :
+1
+Lecture du graphe sur fichier
+10 sommets
+18 arcs
+0 -> 1 = 0
+0 -> 2 = 0
+1 -> 2 = 2
+1 -> 4 = 2
+1 -> 5 = 2
+2 -> 3 = 3
+2 -> 4 = 3
+2 -> 8 = 3
+3 -> 7 = 5
+3 -> 9 = 5
+4 -> 5 = 6
+4 -> 6 = 6
+4 -> 8 = 6
+5 -> 6 = 2
+5 -> 7 = 2
+6 -> 4 = 6
+7 -> 8 = 6
+8 -> 9 = 1
+
+Matrices du graphe :
+Matrice d'adjacence :
+   0  1  2  3  4  5  6  7  8  9  
+0  F  V  V  F  F  F  F  F  F  F  
+1  F  F  V  F  V  V  F  F  F  F  
+2  F  F  F  V  V  F  F  F  V  F  
+3  F  F  F  F  F  F  F  V  F  V  
+4  F  F  F  F  F  V  V  F  V  F  
+5  F  F  F  F  F  F  V  V  F  F  
+6  F  F  F  F  V  F  F  F  F  F  
+7  F  F  F  F  F  F  F  F  V  F  
+8  F  F  F  F  F  F  F  F  F  V  
+9  F  F  F  F  F  F  F  F  F  F  
+Matrice de poids :
+   0  1  2  3  4  5  6  7  8  9  
+0  *  0  0  *  *  *  *  *  *  *  
+1  *  *  2  *  2  2  *  *  *  *  
+2  *  *  *  3  3  *  *  *  3  *  
+3  *  *  *  *  *  *  *  5  *  5  
+4  *  *  *  *  *  6  6  *  6  *  
+5  *  *  *  *  *  *  2  2  *  *  
+6  *  *  *  *  6  *  *  *  *  *  
+7  *  *  *  *  *  *  *  *  6  *  
+8  *  *  *  *  *  *  *  *  *  1  
+9  *  *  *  *  *  *  *  *  *  *  
+Detection de circuit
+Methode d'élimination des points d'entrées
+Points d'entrée :
+0 
+Sommets restants :
+1 2 3 4 5 6 7 8 9 
+Points d'entrée :
+1 
+Sommets restants :
+2 3 4 5 6 7 8 9 
+Points d'entrée :
+2 
+Sommets restants :
+3 4 5 6 7 8 9 
+Points d'entrée :
+3 
+Sommets restants :
+4 5 6 7 8 9 
+Le graphe contient au moins un circuit
+
+Le calcul de rangs n'est pas possible
+
+
+Ce graphe n'est pas un graphe d'ordonnancement car :
+   Le graphe contient au moins un circuit
+
+Souhaitez vous tester un nouveau graphe ? 
